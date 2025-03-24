@@ -1,0 +1,13 @@
+export const ANIMATION_TIMING = {
+  LOAD_DELAY: 100,
+  FADE_DURATION: 700,
+  SLIDE_DELAY: 100,
+  SCALE_DELAY: 300
+};
+
+export const COLORS = {
+  SCHOOL_DARK: '#1a365d',
+  SCHOOL_TEXT: '#2d3748',
+  PRIMARY_BLUE: '#3b82f6'
+};
+
