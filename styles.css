@@ -23,7 +23,7 @@ body::before {
   transform: translate(-50%, -50%);
   width: 100vw;
   height: 100vh;
-  background-image: url('/DALL·E 2025-03-24 10.42.27 - An inspiring, vibrant school setting illustrating creativity, collaboration, innovation, and inclusion. The image shows a modern educational environme.jpg');
+  background-image: url('photo.jpg'); /* ← זה הקישור המתוקן */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

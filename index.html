@@ -1,81 +1,73 @@
+<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>תמונת העתיד של בית הספר</title>
-  <link rel="stylesheet" href="styles.css">
-  <script type="importmap">
-    {
-      "imports": {
-        "animate.css": "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="header">
     <div class="logo-container">
-      <img src="/תמונה1.jpg" alt="לוגו בית הספר" class="logo">
+      <img src="logo.jpg" alt="לוגו בית הספר" class="logo" />
     </div>
     <h1 class="title">תמונת העתיד של בית הספר</h1>
     <p class="subtitle">
-      "כאן כל תלמיד הוא עולם ומלואו, והלמידה היא מסע של גילוי, יצירה, וחיבור אמיתי בין אנשים." כל יום הוא הזדמנות חדשה לצמוח, להתחבר, ולהפוך לגרסה הטובה ביותר של עצמנו.
+      "כאן כל תלמיד הוא עולם ומלואו, והלמידה היא מסע של גילוי, יצירה, וחיבור אמיתי בין אנשים."  
+      כל יום הוא הזדמנות חדשה לצמוח, להתחבר, ולהפוך לגרסה הטובה ביותר של עצמנו.
     </p>
   </header>
 
   <main class="main-content">
     <div class="hero-image">
-      <img src="/DALL·E 2025-03-24 10.42.27 - An inspiring, vibrant school setting illustrating creativity, collaboration, innovation, and inclusion. The image shows a modern educational environme.jpg" alt="בית הספר שלנו - סביבת למידה חדשנית" loading="lazy">
+      <img src="photo.jpg" alt="תמונה של עתיד בית הספר" />
     </div>
 
     <nav class="section-nav">
-      <button data-section="vision" class="section-button">החזון שלנו</button>
-      <button data-section="values" class="section-button">העקרונות והערכים שלנו</button>
-      <button data-section="daily" class="section-button">כך נראה היום-יום שלנו</button>
-      <button data-section="implementation" class="section-button">תחומי המימוש העיקריים</button>
+      <button class="section-button" data-section="section1">חדשנות</button>
+      <button class="section-button" data-section="section2">קהילה</button>
+      <button class="section-button" data-section="section3">למידה מותאמת</button>
+      <button class="section-button" data-section="section4">חזון ירוק</button>
     </nav>
 
-    <div class="vision-card">
-      <div id="vision" class="section-content hidden">
-        <h2>החזון שלנו</h2>
-        <p>בית הספר הינו מגדלור לתלמידיו ובוגריו.<br>
-        כל תלמיד יכול, אין תלמיד שנכשל יש תלמיד שעדיין לא הצליח.<br>
-        אמירה שאימצנו: כוון אל הירח, אם תחטיא תיפול בין כוכבים.</p>
-      </div>
+    <div id="default-message" class="vision-card">
+      <p>בחר נושא כדי לראות את חזון העתיד שלנו!</p>
+    </div>
 
-      <div id="values" class="section-content hidden">
-        <h2>העקרונות והערכים שלנו</h2>
-        <ul>
-          <li>מצוינות אישית וקהילתית</li>
-          <li>חדשנות פדגוגית וטכנולוגית</li>
-          <li>ערכיות חברתית וקהילתית</li>
-          <li>הכלה וקבלת השונה</li>
-          <li>אחריות אישית וקולקטיבית</li>
-        </ul>
-      </div>
+    <div id="section1" class="section-content hidden vision-card">
+      <h2>חדשנות</h2>
+      <ul>
+        <li>שימוש בטכנולוגיות מתקדמות בכיתות</li>
+        <li>למידה חווייתית עם מציאות מדומה</li>
+        <li>תלמידים יוצרים פרויקטים דיגיטליים</li>
+      </ul>
+    </div>
 
-      <div id="daily" class="section-content hidden">
-        <h2>כך נראה היום-יום שלנו</h2>
-        <ul>
-          <li>פדגוגיה חדשנית מבוססת פרויקטים וטכנולוגיה.</li>
-          <li>מרחבי למידה מותאמים, אינטראקטיביים ומגוונים.</li>
-          <li>שיתוף פעולה ומעורבות פעילה עם הקהילה.</li>
-        </ul>
-      </div>
+    <div id="section2" class="section-content hidden vision-card">
+      <h2>קהילה</h2>
+      <ul>
+        <li>שיתופי פעולה עם ההורים</li>
+        <li>חוגים ופעילויות אחרי הלימודים</li>
+        <li>אירועים קהילתיים בבית הספר</li>
+      </ul>
+    </div>
 
-      <div id="implementation" class="section-content hidden">
-        <h2>תחומי המימוש העיקריים</h2>
-        <ul>
-          <li>שילוב טכנולוגיות ובינה מלאכותית בלמידה ובהערכה.</li>
-          <li>פעילויות חברתיות-קהילתיות.</li>
-          <li>הכשרה מתמדת לצוות בחדשנות ובטכנולוגיה.</li>
-          <li>טיפוח מיומנויות חברתיות, רגשיות ואקדמיות.</li>
-        </ul>
-      </div>
+    <div id="section3" class="section-content hidden vision-card">
+      <h2>למידה מותאמת</h2>
+      <ul>
+        <li>מסלולי לימוד אישיים</li>
+        <li>חיזוק תחומי עניין של כל תלמיד</li>
+        <li>תמיכה רגשית ולימודית מותאמת</li>
+      </ul>
+    </div>
 
-      <div id="default-message" class="section-content">
-        <p>לחצו על אחד מהכפתורים למעלה כדי לראות מידע נוסף</p>
-      </div>
+    <div id="section4" class="section-content hidden vision-card">
+      <h2>חזון ירוק</h2>
+      <ul>
+        <li>גינות לימודיות וטיפוח סביבה ירוקה</li>
+        <li>מיחזור ושימוש באנרגיה נקייה</li>
+        <li>חינוך סביבתי כחלק מתוכנית הלימודים</li>
+      </ul>
     </div>
   </main>
 
